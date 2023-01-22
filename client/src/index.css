@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+#sidebarIcon svg{
+  font-size: 16px;
+}
+
+.react-datepicker__input-container input {
+  background-color: rgb(136, 135, 135);
+  font-size: 0.8rem;
+  padding: 3px 6px;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: #ffba70e5;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgb(187, 186, 186);
+}
